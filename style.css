@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b1221;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 60vh; 
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(65%);
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.hero-text h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin: 10px 0 20px;
+  font-weight: 400;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #102544;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #194080;
+}
+
+
+.info {
+  padding: 60px 15%;
+  text-align: left;
+}
+
+.info h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+
+.attractions {
+  padding: 60px 10%;
+  background-color: #0d172c;
+  text-align: left;
+}
+
+.attractions h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #0f1c35;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
